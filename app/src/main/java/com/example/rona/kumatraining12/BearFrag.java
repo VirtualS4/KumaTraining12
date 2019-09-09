@@ -34,7 +34,7 @@ public class BearFrag extends Fragment implements View.OnClickListener,BearAdapt
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        context=getActivity();
+        context = getActivity();
         recyclerView = view.findViewById(R.id.recyclerview);
         layoutManager = new LinearLayoutManager(context);
         recyclerView.setLayoutManager(layoutManager);

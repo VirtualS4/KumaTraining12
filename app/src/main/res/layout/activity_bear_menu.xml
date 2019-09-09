@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".BearMenu">
 
     <Button
@@ -11,5 +12,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Latihan 1"/>
+    <Button
+        android:id="@+id/btn_lat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input"/>
+    <EditText
+        android:id="@+id/id_bear"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_lat22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"/>
+    <Button
+        android:id="@+id/btn_lat23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"/>
 
 </LinearLayout>
